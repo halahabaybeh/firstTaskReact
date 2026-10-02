@@ -9,4 +9,5 @@ export default defineConfig({
       usePolling: true, // بيجبر السيرفر يراقب التغييرات باستمرار
     },
   },
+  base: '/firstTaskReact/',
 })
