@@ -24,7 +24,7 @@ function About() {
 
                 </Grid>
             </Grid>
-<Button variant='outlined' startIcon={<DownloadIcon style={{ fontSize: '1.5rem' }} />} sx={{color: 'white' ,'&:hover':{backgroundColor: 'white', color: '#1abc9c', borderColor: 'white'} , px: 5 , py: 3, borderRadius: 2, fontSize: '1.2rem', borderColor: 'white', textTransform: 'none' }}>Free Download</Button>
+<Button variant='outlined' startIcon={<DownloadIcon style={{ fontSize: '1.5rem' }} />} sx={{color: 'white' ,'&:hover':{backgroundColor: 'white', color: 'black', borderColor: 'white'} , px: 5 , py: 3, borderRadius: 2, fontSize: '1.2rem', borderColor: 'white', textTransform: 'none' }}>Free Download</Button>
         </Container>
     </Box>
 }
