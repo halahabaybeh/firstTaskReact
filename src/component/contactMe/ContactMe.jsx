@@ -2,7 +2,7 @@ import { Box, Container, Grid, Typography, Button, TextField } from "@mui/materi
 import StarIcon from '@mui/icons-material/Star';
 
 function ContactMe() {
-  return <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+  return <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' , py:10}}>
     <Container sx={{ display: 'flex', flexDirection: 'column', gap: '1.5rem', justifyContent: 'center', alignItems: 'center' }}>
       <Typography variant='h2' sx={{ color: '#2c3e50', textTransform: 'uppercase', fontWeight: 'bold' }}>Contact Me</Typography>
       <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '1rem' }}>
@@ -103,6 +103,9 @@ function ContactMe() {
             },
           }}
         />
+        <Box sx={{ display: 'flex', justifyContent: 'start', alignItems: 'start' }}>
+          <Button variant="contained" sx={{ backgroundColor: '#1abc9c', color: 'white', textTransform: 'capitalize', fontSize: 20, '&:hover': { backgroundColor: '#16a085' } }}>Send</Button>
+        </Box>
 
       </Box>
     </Container>
