@@ -3,7 +3,7 @@ import avatarImg from '../../assets/avatars.svg';
 import StarIcon from '@mui/icons-material/Star';
 function Hero() {
 
-  return <Box sx={{ backgroundColor: '#1abc9c', height: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+  return <Box sx={{ backgroundColor: '#1abc9c', height: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center' , marginBottom: '2rem' }}>
     <Container sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', textAlign: 'center', gap: '1rem' }}>
       <Avatar alt="Avataar" src={avatarImg} sx={{ width: 200, height: 200 }} />
       <Typography variant="h1" sx={{ color: 'white', textTransform: 'uppercase', fontWeight: 'bold', fontSize: '4rem' }}>start bootstrap</Typography>
